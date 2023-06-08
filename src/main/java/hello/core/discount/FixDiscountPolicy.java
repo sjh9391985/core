@@ -3,6 +3,9 @@ package hello.core.discount;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 
+/*
+*   정액 할인 정책
+*/
 public class FixDiscountPolicy implements DiscountPolicy{
 
     private int discountFixAccount = 1000;
